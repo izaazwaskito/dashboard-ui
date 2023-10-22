@@ -1,40 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br />
+<p align="center">
+  <h3 align="center">Dashboard</h3>
+  <p align="center">
+    <a href="https://github.com/izaazwaskito/Technical-Test"><strong>Explore the docs »</strong></a>
+    <br />
+    <a href="https://technical-test-sable.vercel.app/">Api Demo</a>
+  </p>
+</p>
 
-## Getting Started
+## Table of Contents
 
-First, run the development server:
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+  - [Built With](#built-with)
+- [Installation](#installation)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# About The Project
+
+Create a dashboard layout according to the provided specifications in the question:
+
+Rules of the Game
+
+1. You have two days of implementa6on
+2. MANDATORY: You have to solve the problem by using React.js framework
+3. You can use any addi6onal libraries or framework you find necessary, as an example css framework such as
+   tailwind, bootsrap etc or react framework such as next.js.
+4. MANDATORY: Please use Git for version control and commit your code regulary and provide brief
+   README.md with instruc6ons on how to run your project
+5. We realy interested in your code quality, organiza6on and how well you meet the requirements of the
+   problem statement.
+6. MANDATORY: submit your solu6on as a compressed archive (e.g., ZIP) including all source code and any
+   necessary instruc6ons on how to run your applica6on (remove node_modules folder before you
+   compressed it)
+7. MANDATOTRY: You should mocking your data using mock API, so all data displayed is obtained from the
+   mock API (because there is no backend API, consider using tools such as “miragejs” or any other mock
+   tools)
+8. Demonstrate your logical thinking by ensuring that the components are modular and reusable
+9. This is the figma link for UI design, use this link to get components of UI design
+   h^ps://www.figma.com/file/0nwzy8trAIwegTPHXmMg2H/Admin-Dashboard-
+   (Community)?type=design&node-id=3%3A99&mode=design&t=5MTPDbQjU6403K7c-1
+
+## Built With
+
+These are the libraries and service used for building this backend API
+
+- [Next.js](https://nextjs.org)
+- [Bootstrap](https://getbootstrap.com)
+- [Tailwind](https://www.tailwindcss.com)
+- [JSON Server](https://www.npmjs.com/package/json-server) as API Deploy
+- [Animate On Scroll](https://michalsnik.github.io/aos/)
+- [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
+- [Iconsax](https://iconsax-react.pages.dev/)
+
+# Installation
+
+1. Clone this repository
+
+```sh
+git clone https://github.com/izaazwaskito/dashboard-ui.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Change directory to markisak-be
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+cd dashboard-ui
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+3. Install all of the required modules
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Create and configure `.env` file in the root directory, example credentials are provided in [.env.example](./.env.example)
 
-## Learn More
+```sh
+NEXT_PUBLIC_API = https://dashboard-api-ten.vercel.app
+```
 
-To learn more about Next.js, take a look at the following resources:
+6. Run this command to run the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```sh
+npm run start
+```
