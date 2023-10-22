@@ -25,7 +25,7 @@ const QuickInvoice = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://dashboard-api-ten.vercel.app/transaction", transactions)
+      .post(`${process.env.NEXT_PUBLIC_API}/transaction`, transactions)
       .then((response) => {
         setTransactions(response.data);
       })
@@ -34,7 +34,7 @@ const QuickInvoice = () => {
 
   useEffect(() => {
     axios
-      .get("https://dashboard-api-ten.vercel.app/transaction")
+      .get(`${process.env.NEXT_PUBLIC_API}/transaction`)
       .then((response) => setTransaction(response.data))
       .catch((error) => console.log(error));
   }, []);
