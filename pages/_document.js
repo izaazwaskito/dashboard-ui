@@ -33,7 +33,7 @@ export default function Document() {
           crossOrigin="anonymous"
           defer
         />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js" defer />
       </body>
     </Html>
   );
