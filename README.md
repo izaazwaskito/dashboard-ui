@@ -4,7 +4,8 @@
   <p align="center">
     <a href="https://github.com/izaazwaskito/Technical-Test"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://technical-test-sable.vercel.app/">Api Demo</a>
+    <a href="https://dashboard-ui-swart.vercel.app/">UI Demo</a>
+    <a href="https://dashboard-api-ten.vercel.app/">API Demo</a>
   </p>
 </p>
 
