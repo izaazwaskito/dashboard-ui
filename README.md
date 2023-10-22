@@ -38,8 +38,7 @@ Rules of the Game
    tools)
 8. Demonstrate your logical thinking by ensuring that the components are modular and reusable
 9. This is the figma link for UI design, use this link to get components of UI design
-   h^ps://www.figma.com/file/0nwzy8trAIwegTPHXmMg2H/Admin-Dashboard-
-   (Community)?type=design&node-id=3%3A99&mode=design&t=5MTPDbQjU6403K7c-1
+   [Figma UI design](<https://www.figma.com/file/0nwzy8trAIwegTPHXmMg2H/Admin-Dashboard-(Community)?type=design&node-id=3-99&mode=design&t=R7gPmarzbb7XMro3-0>)
 
 ## Built With
 
